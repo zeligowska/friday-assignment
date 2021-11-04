@@ -1,0 +1,11 @@
+
+.car-selection-panel {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.make-selection {
+    display: flex;
+    flex-direction: column;
+}

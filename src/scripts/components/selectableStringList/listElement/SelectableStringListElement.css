@@ -4,10 +4,7 @@
     text-align: center;
     padding-bottom: 5px;
     cursor: pointer;
-}
-
-.makes-list-element:not(:last-child) {
-    border-bottom: 1px dashed grey;
+    border-top: 1px dashed grey;
 }
 
 .makes-list-element:hover {
