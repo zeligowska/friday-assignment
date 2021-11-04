@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useCarSelectionContext } from "scripts/context/Context";
 import useFetch from "use-http";
 
@@ -39,17 +39,17 @@ export const CarsDataProvider = ({ children }: CarsDataProviderProps): React.Rea
         }
     }
     
-    useEffect(() => {
+    React.useEffect(() => {
         getMakesList()
     }, []);
 
-    useEffect(() => {
+    React.useEffect(() => {
         if (selectedMake) {
             getModelsList();
         }
     }, [selectedMake])
 
-    useEffect(() => {
+    React.useEffect(() => {
         if (selectedMake && selectedModel) {
             getCarsList();
         }
