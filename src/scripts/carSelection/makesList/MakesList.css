@@ -1,0 +1,12 @@
+
+.makes-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 30px;
+}

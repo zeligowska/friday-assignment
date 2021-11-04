@@ -1,0 +1,15 @@
+
+.makes-list-element {
+    width: 200px;
+    text-align: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.makes-list-element:not(:last-child) {
+    border-bottom: 1px dashed grey;
+}
+
+.makes-list-element:hover {
+    background-color: #DCDCDC;
+}
