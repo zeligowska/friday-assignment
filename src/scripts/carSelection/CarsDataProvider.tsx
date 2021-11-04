@@ -20,7 +20,7 @@ export const CarsDataProvider = ({ children }: CarsDataProviderProps): React.Rea
         const makes = await get(GET_MAKES_LIST_URL);
         if (response.ok) {
             setMakesList(makes);
-        }
+        } // todo obsługa błędu 
     }
 
     async function getModelsList() {
@@ -28,7 +28,7 @@ export const CarsDataProvider = ({ children }: CarsDataProviderProps): React.Rea
         const models = await get(url);
         if (response.ok) {
             setModelsList(models);
-        }
+        } // todo obsługa błędu 
     }
 
     async function getCarsList() {
@@ -36,7 +36,7 @@ export const CarsDataProvider = ({ children }: CarsDataProviderProps): React.Rea
         const cars = await get(url);
         if (response.ok) {
             setCarsList(cars);
-        }
+        } // todo obsługa błędu 
     }
     
     React.useEffect(() => {
